@@ -1,0 +1,120 @@
+
+.total {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+
+.h-2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.h-2 h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.locate {
+  margin-bottom: 20px;
+}
+
+.mapco {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.addressform {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.saved-addresses {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Form styling */
+.addressform form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.addressform input,
+.addressform select,
+.addressform button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.addressform button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.addressform button:hover {
+  background-color: #0056b3;
+}
+
+/* Saved Addresses styling */
+.saved-addresses div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.saved-addresses p {
+  margin: 0;
+}
+
+.saved-addresses button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.saved-addresses button:hover {
+  background-color: #b02a37;
+}
+
+
+.mapco {
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 600px; 
+  height: 400px;
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  overflow: hidden; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  background-color: #f3f3f3; 
+}
+
+
+
+
